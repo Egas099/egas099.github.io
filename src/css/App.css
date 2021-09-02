@@ -1,0 +1,66 @@
+.App {
+  height: 100vh;
+  text-align: center;
+}
+
+.demo {
+  width: 200px;
+  height: 230px;
+}
+
+iframe {
+  border: none !important;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.row {
+  text-align: left;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 30px auto;
+  background-color: #f0f0f2;
+  max-width: 800px;
+  min-width: 600px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.row__content {
+  padding: 10px 20px;
+}
+
+.home-page address {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+}
+
+.home-page address a {
+  margin: 0 10px;
+}
+
+.about-mi {
+  max-width: 800px;
+  text-align: left;
+  margin: auto;
+}
+
+.about-mi>p {
+  background-color: rgba(212, 212, 212, 0.5);
+  margin: 5px;
+  padding: 5px;
+  box-shadow: 0 0 5px rgba(212, 212, 212, 0.5);
+}
+
+.about-mi>p::before {
+  content: ">"
+}
+
+.projects a {
+  text-decoration: none;
+  color: teal;
+}
